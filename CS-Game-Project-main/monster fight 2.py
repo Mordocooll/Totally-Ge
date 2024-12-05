@@ -19,7 +19,7 @@ def start_game():
 
 
 # Background image
-    bg_image = PhotoImage(file="Monster_Fight_GUI-removebg.png")
+    bg_image = PhotoImage(file="Monster_Fight_GUI-cave.png")
     bg_label = Label(root, image=bg_image)
     bg_label.image = bg_image
     bg_label.place(x=0, y=0)
