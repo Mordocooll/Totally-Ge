@@ -19,7 +19,7 @@ def start_game():
 
 
 # Background image
-    bg_image = PhotoImage(file="Monster_Fight_GUI-cave.png")
+    bg_image = PhotoImage(file="Monster_Fight_GUI-removebg.png")
     bg_label = Label(root, image=bg_image)
     bg_label.image = bg_image
     bg_label.place(x=0, y=0)
@@ -206,7 +206,7 @@ def start_game():
         root.destroy()  
 
     def continue_turn_win():
-        subprocess.Popen(["python", "story2.py"]) 
+        subprocess.Popen(["python", "story3.py"]) 
         root.destroy()  
 
 
